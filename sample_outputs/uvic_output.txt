@@ -1,0 +1,165 @@
+--uvic.ca IMPORTANT DATES
+
+Updated Date: 2022-01-21T16:01:04Z
+Creation Date: 2000-10-02T20:46:49Z
+Registry Expiry Date: 2029-04-07T04:00:00Z
+
+--uvic.ca FOUND NAMES
+
+Domain Name: uvic.ca
+Registrant Name: University of Victoria
+Admin Name: Jane Godfrey
+Admin Organization: University of Victoria
+Tech Name: UVic NOC
+Tech Organization: University of Victoria
+
+--uvic.ca FOUND EMAILS
+
+Registrar Abuse Contact Email: garrett@webnames.ca
+Registrant Email: rkozsan@uvic.ca
+Admin Email: jgodfrey@uvic.ca
+Tech Email: netadmin@uvic.ca
+
+--uvic.ca FOUND PHONE NUMBERS
+
+Registrar Abuse Contact Phone: +1.6046333097x123
+Registrant Phone: +1.2504724825
+Admin Phone: +1.2507217673
+Tech Phone: +1.2507217654
+
+--uvic.ca FOUND GEOGRAPHICAL LOCATIONS
+
+Registrant City: Victoria
+Registrant State/Province: BC
+Registrant Country: CA
+Admin City: Victoria
+Admin State/Province: BC
+Admin Country: CA
+Tech City: Victoria
+Tech State/Province: BC
+Tech Country: CA
+
+--uvic.ca FOUND NAME SERVERS
+
+Name Server: dns1.uvic.ca , IP: 142.104.6.1
+Name Server: dns2.uvic.ca , IP: 142.104.80.2
+Name Server: ns3.uvic.ca , IP: 206.12.173.65
+
+--uvic.ca FOUND INFO ON NAME SERVERS
+
+-- 142.104.6.1 FOUND NAMES
+
+NetName:        UVIC
+OrgName:        University of Victoria
+OrgTechName:   NetAdmin
+OrgAbuseName:   Abuse
+RTechName:   NetAdmin
+
+-- 142.104.6.1 FOUND EMAILS
+
+OrgAbuseEmail:  abuse@uvic.ca
+OrgTechEmail:  netadmin@uvic.ca
+RTechEmail:  netadmin@uvic.ca
+
+-- 142.104.6.1 FOUND PHONE NUMBERS
+
+OrgAbusePhone:  +1-250-721-8778 
+OrgTechPhone:  +1-250-721-7654 
+RTechPhone:  +1-250-721-7654 
+
+-- 142.104.80.2 FOUND NAMES
+
+NetName:        UVIC
+OrgName:        University of Victoria
+OrgAbuseName:   Abuse
+OrgTechName:   NetAdmin
+RTechName:   NetAdmin
+
+-- 142.104.80.2 FOUND EMAILS
+
+OrgTechEmail:  netadmin@uvic.ca
+OrgAbuseEmail:  abuse@uvic.ca
+RTechEmail:  netadmin@uvic.ca
+
+-- 142.104.80.2 FOUND PHONE NUMBERS
+
+OrgAbusePhone:  +1-250-721-7687 
+OrgTechPhone:  +1-250-721-8778 
+RTechPhone:  +1-250-721-8778 
+
+-- 206.12.173.65 FOUND NAMES
+
+NetName:        BC-206-12-BLK
+OrgName:        BCnet
+OrgTechName:   Bailey, Lance Roy
+OrgAbuseName:   MacKay, Ivor 
+OrgTechName:   Estrada, Miguel 
+OrgAbuseName:   HostMaster
+OrgTechName:   Wong, Toby 
+RTechName:   Wong, Toby 
+NetName:        UBC-206-12-172
+OrgName:        University of British Columbia
+OrgTechName:   Kushnir, Alex 
+OrgTechName:   Wang, Sean 
+OrgAbuseName:   Abuse
+
+-- 206.12.173.65 FOUND EMAILS
+
+OrgAbuseEmail:  ivor.mackay@bc.net
+OrgTechEmail:  toby.wong@bc.net
+OrgTechEmail:  lance.bailey@bc.net
+OrgTechEmail:  miguel.estrada@bc.net
+OrgAbuseEmail:  hostmaster@bc.net
+RTechEmail:  toby.wong@bc.net
+OrgAbuseEmail:  security@ubc.ca
+OrgTechEmail:  alex.kushnir@ubc.ca
+OrgTechEmail:  sean.wang@ubc.ca
+
+-- 206.12.173.65 FOUND PHONE NUMBERS
+
+OrgTechPhone:  +1-604-822-1348 
+OrgAbusePhone:  +1-604-822-1348 
+OrgTechPhone:  +1-604-822-1348 
+OrgAbusePhone:  +1-604-805-6865 
+OrgTechPhone:  +1-778-222-8514 
+RTechPhone:  +1-604-822-1348 
+OrgTechPhone:  +1-604-827-3704 
+OrgAbusePhone:  +1-604-822-3652 
+OrgTechPhone:  +1-604-822-4475 
+
+
+--uvic.ca TRACE ROUTE
+
+traceroute to uvic.ca (142.104.197.120), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.0.1)  1.822 ms  2.253 ms  3.118 ms
+ 2  96.54.64.1 (96.54.64.1)  13.037 ms  20.104 ms  20.467 ms
+ 3  dx5sa-g3.gv.shawcable.net (64.59.163.137)  21.103 ms  21.095 ms  21.468 ms
+ 4  24.244.61.106 (24.244.61.106)  20.647 ms  21.027 ms  21.403 ms
+ 5  rd1cv-be11.gv.shawcable.net (66.163.72.21)  22.161 ms  21.779 ms  21.778 ms
+ 6  rd1bb-tge0-0-3-0.no.shawcable.net (66.163.72.6)  21.271 ms  12.729 ms  11.441 ms
+ 7  64.251.74.2 (64.251.74.2)  19.867 ms  19.359 ms  19.747 ms
+ 8  132-tx-uviccle-cr1.vctr3.bc.net (207.23.241.80)  19.780 ms  19.788 ms  19.750 ms
+ 9  142.104.100.94 (142.104.100.94)  29.583 ms  28.628 ms  21.383 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+See through you...we can

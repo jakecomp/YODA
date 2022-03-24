@@ -1,0 +1,163 @@
+--yahoo.ca IMPORTANT DATES
+
+Updated Date: 2021-11-10T20:44:58Z
+Creation Date: 2000-10-04T00:08:36Z
+Registry Expiry Date: 2022-09-21T04:00:00Z
+
+--yahoo.ca FOUND NAMES
+
+Domain Name: yahoo.ca
+Registrant Name: Yahoo Canada Corp.
+Admin Name: Andres Lorca
+Admin Organization: Yahoo Canada Corp.
+Tech Name: Andres Lorca
+Tech Organization: Yahoo Canada Corp.
+Billing Name: CCOPS Billing
+Billing Organization: MarkMonitor Inc.
+
+--yahoo.ca FOUND EMAILS
+
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrant Email: domainip@yahooinc.com
+Admin Email: domainip@yahooinc.com
+Tech Email: domainip@yahooinc.com
+Billing Email: ccopsbilling@markmonitor.com
+
+--yahoo.ca FOUND PHONE NUMBERS
+
+Registrar Abuse Contact Phone: +1.2083895740
+Registrant Phone: +1.4162638100
+Admin Phone: +1.4162638100
+Tech Phone: +1.4162638100
+Billing Phone: +1.2083895740
+
+--yahoo.ca FOUND GEOGRAPHICAL LOCATIONS
+
+Registrant City: Toronto
+Registrant State/Province: ON
+Registrant Country: CA
+Admin City: Toronto
+Admin State/Province: ON
+Admin Country: CA
+Tech City: Toronto
+Tech State/Province: ON
+Tech Country: CA
+Billing City: Meridian
+Billing State/Province: ID
+Billing Country: US
+
+--yahoo.ca FOUND NAME SERVERS
+
+Name Server: ns1.yahoo.com , IP: 68.180.131.16
+Name Server: ns2.yahoo.com , IP: 68.142.255.16
+Name Server: ns3.yahoo.com , IP: 27.123.42.42
+Name Server: ns5.yahoo.com , IP: 202.165.97.53
+Name Server: ns7.yahoo.com , IP: 68.142.226.82
+
+--yahoo.ca FOUND INFO ON NAME SERVERS
+
+-- 68.180.131.16 FOUND NAMES
+
+NetName:        A-YAHOO-US6
+OrgName:        Oath Holdings Inc.
+OrgTechName:   Oath Tech Contact
+OrgNOCName:   Oath NOC
+OrgAbuseName:   Oath Abuse
+
+-- 68.180.131.16 FOUND EMAILS
+
+OrgAbuseEmail:  rir-abuse@yahoo-inc.com
+OrgTechEmail:  rir-tech@yahooinc.com
+OrgNOCEmail:  rir-noc@yahoo-inc.com
+
+-- 68.180.131.16 FOUND PHONE NUMBERS
+
+OrgNOCPhone:  +1-408-349-5555 
+OrgAbusePhone:  +1-408-349-3300 
+OrgTechPhone:  +1-408-349-5555 
+
+-- 68.142.255.16 FOUND NAMES
+
+NetName:        INKTOMI-BLK-4
+OrgName:        Oath Holdings Inc.
+OrgAbuseName:   Oath Abuse
+OrgTechName:   Oath Tech Contact
+OrgNOCName:   Oath NOC
+
+-- 68.142.255.16 FOUND EMAILS
+
+OrgAbuseEmail:  network-abuse@cc.yahoo-inc.com
+OrgTechEmail:  rir-tech@yahooinc.com
+OrgNOCEmail:  rir-noc@yahoo-inc.com
+
+-- 68.142.255.16 FOUND PHONE NUMBERS
+
+OrgNOCPhone:  +1-408-349-5555 
+OrgTechPhone:  +1-408-349-5555 
+OrgAbusePhone:  +1-408-349-3300 
+
+-- 27.123.42.42 FOUND NAMES
+
+
+-- 27.123.42.42 FOUND EMAILS
+
+
+-- 27.123.42.42 FOUND PHONE NUMBERS
+
+phone:          +000000000
+phone:          +852-28376275
+
+-- 202.165.97.53 FOUND NAMES
+
+
+-- 202.165.97.53 FOUND EMAILS
+
+
+-- 202.165.97.53 FOUND PHONE NUMBERS
+
+phone:          +65-6809-8000
+phone:          +000000000
+phone:          +1 408 349 3300
+
+-- 68.142.226.82 FOUND NAMES
+
+NetName:        INKTOMI-BLK-4
+OrgName:        Oath Holdings Inc.
+OrgAbuseName:   Oath Abuse
+OrgTechName:   Oath Tech Contact
+OrgNOCName:   Oath NOC
+
+-- 68.142.226.82 FOUND EMAILS
+
+OrgNOCEmail:  rir-noc@yahooinc.com
+OrgTechEmail:  rir-tech@oath.com
+OrgAbuseEmail:  rir-abuse@yahooinc.com
+
+-- 68.142.226.82 FOUND PHONE NUMBERS
+
+OrgNOCPhone:  +1-408-349-5555 
+OrgAbusePhone:  +1-408-349-3300 
+OrgTechPhone:  +1-408-349-5555 
+
+
+--yahoo.ca TRACE ROUTE
+
+traceroute to yahoo.ca (212.82.100.150), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.0.1)  1.897 ms  2.087 ms  2.082 ms
+ 2  96.54.64.1 (96.54.64.1)  13.271 ms  21.769 ms  22.048 ms
+ 3  dx5sa-g3.gv.shawcable.net (64.59.163.137)  22.084 ms  22.069 ms  22.059 ms
+ 4  24.244.61.106 (24.244.61.106)  22.052 ms  22.057 ms  22.335 ms
+ 5  rc1wt-be40.wa.shawcable.net (66.163.68.18)  23.798 ms  22.285 ms  23.766 ms
+ 6  rc3so-be82.cg.shawcable.net (66.163.76.10)  44.281 ms  38.974 ms  38.306 ms
+ 7  rc4ec-be13.il.shawcable.net (66.163.65.18)  77.184 ms  77.704 ms  77.162 ms
+ 8  rc3ec-be6-1.il.shawcable.net (66.163.65.69)  76.859 ms  77.994 ms  77.952 ms
+ 9  rc1ny-be7.ny.shawcable.net (66.163.76.98)  109.009 ms  109.487 ms  109.487 ms
+10  pat1.nyc.yahoo.com (198.32.118.24)  108.953 ms  108.592 ms  108.871 ms
+11  ae-8.pat2.loz.yahoo.com (209.191.64.147)  178.276 ms  178.240 ms  177.176 ms
+12  ae-6.pat2.iry.yahoo.com (209.191.112.72)  177.553 ms  175.815 ms  182.237 ms
+13  unknown.yahoo.com (66.196.65.25)  182.596 ms et-11-1-2.msr1.ir2.yahoo.com (66.196.65.23)  183.383 ms  182.777 ms
+14  lo0.fab2-1-gdc.ir2.yahoo.com (77.238.190.3)  182.384 ms lo0.fab1-1-gdc.ir2.yahoo.com (77.238.190.2)  177.151 ms lo0.fab2-1-gdc.ir2.yahoo.com (77.238.190.3)  185.909 ms
+15  usw2-1-lba.ir2.yahoo.com (77.238.190.103)  185.835 ms usw1-1-lba.ir2.yahoo.com (77.238.190.102)  185.426 ms usw2-1-lba.ir2.yahoo.com (77.238.190.103)  183.988 ms
+16  w2.src.vip.ir2.yahoo.com (212.82.100.150)  183.598 ms  175.427 ms  177.964 ms
+
+See through you...we can

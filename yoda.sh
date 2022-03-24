@@ -1,10 +1,5 @@
-#!/bin/bash  
+#!/bin/bash   
 
-echo "" 
-echo "See through you...we can" 
-echo ""
-
-cat yoda_logo.txt 
 echo ""
 
 while getopts i:d:e:u:* flag 
@@ -26,9 +21,7 @@ do
 
     esac 
 
-done  
-
-echo "MY URL IS $url"
+done
 
 find_ip_info() {  
 
@@ -37,22 +30,24 @@ find_ip_info() {
 
     echo "-- $1 FOUND NAMES" 
     echo "" 
-    $whoisinfo | grep 'Org' | grep -v ":$" | grep 'Name'
+    $whoisinfo | grep -v ":$" | grep 'Name:' | sed -e 's/^\s*//'
     echo ""
 
     echo "-- $1 FOUND EMAILS" 
     echo "" 
-    $whoisinfo | grep 'Org' | grep -v ":$" | grep 'Email'
+    $whoisinfo | grep -v ":$" | grep -i 'Email:' | sed -e 's/^\s*//'
     echo ""  
 
     echo "-- $1 FOUND PHONE NUMBERS" 
     echo "" 
-    $whoisinfo | grep 'Org' | grep -v ":$" | grep 'Phone'
+    $whoisinfo | grep -v ":$" | grep -i 'Phone:' | sed -e 's/^\s*//'
     echo "" 
 
     if [ $2 = true ]
     then 
-        echo "NO DOMAIN GIVEN" 
+        echo "NO DOMAIN NAME PROVIDED ... FINDING DOMAIN NAME WITH NSLOOKUP"  
+        nslookup $1 | grep -i 'Name'
+
     fi
 }
 
@@ -62,27 +57,27 @@ find_domain_info() {
 
     echo "--$1 IMPORTANT DATES" 
     echo ""
-    $whoisinfo | grep -v ":$" | grep "Date" 
+    $whoisinfo | grep -v ":$" | grep -i "Date:"  | sed -e 's/^\s*//'
     echo ""
 
     echo "--$1 FOUND NAMES" 
     echo "" 
-    $whoisinfo | grep -v ":$" | grep 'Name\|Organization' | grep -v "Server"
+    $whoisinfo | grep -v ":$" | grep -i 'Name:\|Organization:' | grep -i -v "Server" | sed -e 's/^\s*//'
     echo "" 
 
     echo "--$1 FOUND EMAILS" 
     echo "" 
-    $whoisinfo | grep -v ":$" | grep "Email" 
+    $whoisinfo | grep -v ":$" | grep -i "Email:" | sed -e 's/^\s*//'
     echo "" 
 
     echo "--$1 FOUND PHONE NUMBERS"
     echo ""
-    $whoisinfo | grep -v ":$" | grep 'Phone' 
+    $whoisinfo | grep -v ":$" | grep -i 'Phone:' | sed -e 's/^\s*//'
     echo "" 
 
     echo "--$1 FOUND GEOGRAPHICAL LOCATIONS" 
     echo "" 
-    $whoisinfo | grep -v ":$" | grep 'Country\|State/Province\|City' 
+    $whoisinfo | grep -v ":$" | grep -i 'Country:\|State/Province:\|City:' | sed -e 's/^\s*//' 
     echo ""
     
     declare -a name_servers=($($whoisinfo | grep -v ":$" | sed -n -e 's/^.*Name Server://p'))
@@ -95,7 +90,7 @@ find_domain_info() {
     done 
 
     echo ""  
-    echo "--$1 FOUND INFO ON NAME SERVERS" 
+    echo "--$1 FOUND INFO ON NAME SERVERS"
     echo ""
     for i in "${name_servers[@]}" 
     do 
@@ -136,5 +131,24 @@ then
     echo "WE HAVE A URL!"
 
     domain=$( echo "$url" | sed -n -e 's/^.*www.//p')
-    echo "DOMAIN IS $domain"
-fi
+    find_domain_info $domian 
+
+elif ! [ -z $email ] 
+then 
+
+    
+    domain=$( echo "$email" | sed -n -e 's/^.*@//p') 
+    find_domain_info $domain 
+
+else 
+
+    find_domain_info $1
+
+fi 
+
+echo "" 
+echo "See through you...we can" 
+echo "" 
+
+# Umcomment line below with yoda_logo.txt file to see some yoda ASCII art
+#cat yoda_logo.txt
